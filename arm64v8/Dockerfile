@@ -28,4 +28,4 @@ RUN apt-get update \
 
 USER olympe
 
-ENTRYPOINT ["python3"]
+#ENTRYPOINT ["python3"]
