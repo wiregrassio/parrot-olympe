@@ -1,1 +1,1 @@
-docker run -it --rm -v $(dirname $(pwd))/example_code:/home/olympe wiregrass/parrot-olympe:arm64v8 python3 /home/olympe/main.py
+docker run -it --rm -v $(dirname $(pwd))/example_code:/home/olympe wiregrass/parrot-olympe:arm64v8 /bin/bash -c "python3 /home/olympe/main.py"
