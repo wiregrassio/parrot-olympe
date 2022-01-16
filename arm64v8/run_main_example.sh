@@ -1,0 +1,1 @@
+docker run -it --rm -v $(dirname $(pwd))/example_code:/home/olympe wiregrass/parrot-olympe:arm64v8 /home/olympe/main.py
