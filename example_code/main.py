@@ -177,8 +177,6 @@ class Parrot_Drone:
 #        elif mode == 'stream':
 #            self.drone(camera.set_streaming_mode())
 
-
-
 if __name__ == "__main__":
 
 #---------- Init ----------#
