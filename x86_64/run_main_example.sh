@@ -1,1 +1,0 @@
-docker run -it --rm -v $(dirname $(pwd))/example_code:/home/olympe wiregrass/parrot-olympe:x86_64 /bin/bash -c "python3 /home/olympe/main.py"
