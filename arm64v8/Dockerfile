@@ -23,7 +23,7 @@ RUN apt-get update \
     && apt-get install -y libgl1 \
     && cd /tmp/wheels \
     && pip install $(ls) \
-    && pip install protobuf \
+    && pip install protobuf haversine \
     && adduser olympe 
 
 USER olympe
